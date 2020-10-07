@@ -39,7 +39,7 @@ newTrial("Participante",
          newTextInput("Nome")
          ,
          newText("<p>Agora selecione sua ESCOLARIDADE na caixa abaixo e aperte o botão 'Iniciar' para começar </p>")
-         ,
+        
          //Cria uma caixa com seletores nomeada "Escolaridade" para que o participante selecione sua escolaridade
          newDropDown("Escolaridade", "Selecione sua escolaridade")
         .add("Médio completo", "Superior em curso", "Superior completo", "Pós-graduação")
